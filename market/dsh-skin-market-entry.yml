@@ -1,0 +1,18 @@
+# DSH 皮肤市场收录条目（模板）
+#
+# 先把这个主题包推到一个公开 GitHub 仓库（仓库根目录就是本目录内容），
+# 然后在 dsh-skin-market 仓库新建：
+#   registry/skins/<你的GitHub用户名>__<仓库名>.yml
+# 内容只保留 url / subpath / name / author / description / screenshots 字段。
+# 不要写 package、rowId、install；市场 CI 会自动补全。
+#
+# 然后在 dsh-skin-market 仓库根目录运行：
+#   npm run registry:check
+# 通过后提 PR（标题：feat(registry): add 有风）。
+
+url: https://github.com/REPLACE_WITH_YOUR_GITHUB/dsh-workbuddy-youfeng
+name: 有风
+author: WorkBuddy
+description: WorkBuddy 5.9.3「有风」森林绿主题：森林壁纸、叶猫、奶油纸底与桉树绿侧栏。
+screenshots:
+  - https://raw.githubusercontent.com/REPLACE_WITH_YOUR_GITHUB/dsh-workbuddy-youfeng/main/preview/light.png

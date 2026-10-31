@@ -1,0 +1,21 @@
+{
+  "id": "workbuddy-youfeng",
+  "name": "有风",
+  "nameEn": "Youfeng",
+  "author": "WorkBuddy",
+  "tagline": "窗外有风，心里有光。",
+  "description": "Port of the WorkBuddy 5.9.3 「有风」 appearance pack: forest-green wallpaper, warm paper surfaces, eucalyptus sidebar and leaf-cat companion.",
+  "tags": ["workbuddy", "youfeng", "forest", "green", "light"],
+  "accent": "#3c8c4e",
+  "bodyAttr": "data-dsh-workbuddy-youfeng",
+  "dshCompatibility": "0.2.1",
+  "package": "dsh-client-ui-skin-workbuddy-youfeng",
+  "wiring": {
+    "id": "ui-skin-workbuddy-youfeng",
+    "bundleWired": true
+  },
+  "preview": {
+    "light": "preview/light.png"
+  },
+  "order": 10
+}

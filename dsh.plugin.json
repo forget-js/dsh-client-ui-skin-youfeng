@@ -1,0 +1,13 @@
+{
+  "id": "dsh-external/dsh-client-ui-skin-workbuddy-youfeng",
+  "version": "0.1.0",
+  "main": "./lib/index.js",
+  "description": "WorkBuddy 5.9.3 「有风」forest-green theme for the DSH web GUI.",
+  "engines": {
+    "dsh": ">=0.2.1-rc.1"
+  },
+  "contributes": {
+    "tools": [],
+    "skills": []
+  }
+}

@@ -1,0 +1,4 @@
+# WorkBuddy 有风 skin bundle patch: mounts the browser skin on the profile.
+- insert:
+    - id: ui-skin-workbuddy-youfeng
+      name: 'dsh-client-ui-skin-workbuddy-youfeng'

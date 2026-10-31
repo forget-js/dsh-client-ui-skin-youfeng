@@ -1,0 +1,56 @@
+{
+  "name": "dsh-client-ui-skin-workbuddy-youfeng",
+  "version": "0.1.0",
+  "description": "WorkBuddy 5.9.3 有风 (Youfeng) forest-green skin for the DSH web GUI: warm paper surfaces, forest wallpaper, green accents and the leaf-cat companion.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "dsh-skin",
+    "theme",
+    "workbuddy",
+    "youfeng"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "node scripts/build-theme.cjs"
+  },
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./skin.json": "./skin.json",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-theme"
+      ],
+      "platform": "web"
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.1-rc.1"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1"
+  },
+  "files": [
+    "lib",
+    "assets",
+    "preview",
+    "market",
+    "cordis.patch.yml",
+    "skin.json",
+    "dsh.plugin.json",
+    "README.md",
+    "PUBLISHING.md",
+    "NOTICE",
+    "src",
+    "scripts"
+  ],
+  "license": "UNLICENSED"
+}

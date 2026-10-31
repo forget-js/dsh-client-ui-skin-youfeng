@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "title": {
+    "zh": "WorkBuddy 主题",
+    "en": "WorkBuddy Themes"
+  },
+  "description": {
+    "zh": "从 WorkBuddy 外观包移植的 DSH 主题；当前包含「有风」。",
+    "en": "DSH themes ported from WorkBuddy appearance packs; currently ships Youfeng."
+  },
+  "metadata": {
+    "categories": {
+      "theme": {
+        "title": {
+          "zh": "主题与外观",
+          "en": "Themes & Appearance"
+        }
+      }
+    },
+    "labels": {},
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-client-ui-skin-workbuddy-youfeng",
+      "title": {
+        "zh": "有风 · WorkBuddy 主题",
+        "en": "Youfeng · WorkBuddy Theme"
+      },
+      "description": {
+        "zh": "WorkBuddy 5.9.3「有风」森林绿主题：首页森林壁纸、叶猫伙伴、奶油纸底、桉树绿侧栏与绿色强调色。",
+        "en": "The WorkBuddy 5.9.3 Youfeng forest-green skin: forest wallpaper, leaf-cat companion, warm paper surfaces, eucalyptus sidebar and green accents."
+      },
+      "author": "WorkBuddy",
+      "metadata": {
+        "category": "theme",
+        "keywords": [
+          "dsh",
+          "dsh-skin",
+          "theme",
+          "workbuddy",
+          "youfeng",
+          "green"
+        ],
+        "labels": [],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793481600,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.1"
+          }
+        }
+      ]
+    }
+  ]
+}
